@@ -6,6 +6,7 @@ def install(package):
     subprocess.check_call([sys.executable, "-m", "pip", "install", package])
     
 install('plotly')
+install('statsmodel')
 import pandas as pd
 import plotly.express as px
 import numpy as np
