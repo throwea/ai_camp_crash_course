@@ -1,4 +1,11 @@
 #importing general objects
+import subprocess
+import sys
+
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+    
+install('plotly')
 import pandas as pd
 import plotly.express as px
 import numpy as np
