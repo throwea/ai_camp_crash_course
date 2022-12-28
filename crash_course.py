@@ -7,6 +7,7 @@ def install(package):
     
 # install('plotly')
 install('statsmodels')
+install("plotly")
 import pandas as pd
 import plotly.express as px
 import numpy as np
